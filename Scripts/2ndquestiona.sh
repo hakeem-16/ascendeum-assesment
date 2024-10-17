@@ -10,6 +10,6 @@ words=$(wc -w < "$doc")
 
 echo "Number of words in this doc: $words"
 
-characters=$(wc -c < "$doc")
+characters=$(wc -m < "$doc")
 
 echo "Number of characters in this doc: $characters"
